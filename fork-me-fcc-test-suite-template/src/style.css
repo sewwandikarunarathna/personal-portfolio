@@ -1,0 +1,137 @@
+body {
+  background-color:#263238;
+  
+  margin:0;
+}
+
+#welcome-section{
+  text-align:center;
+position:static;
+  padding-top: 250px;
+  height: 100vh;
+  background-color:#37474F;
+  font-family: Montserrat, sans-serif;
+  color:#FFEBEE;
+   font-weight:bold;
+}
+#welcome-section h2{
+  font-family: Lora, serif;
+  color:#FFEBEE;
+  font-style:italic;
+}
+#projects{
+  height: 500px;
+  background-color:#283593;
+ margin:0px;
+  padding:0px;
+}
+#projects h2{
+   text-align:center;
+  padding:20px;
+  color:#FFEBEE;
+  text-decoration:underline;
+  font-family: Lato, sans-serif;
+}
+.project-tile{
+  margin-left:80px;
+  border: solid 2px;
+  width:300px;
+   height:320px;
+   float:left;
+   background-color:#F50057;
+}
+.project-tile img{
+  width:300px;
+  height:230px;
+  margin:0px 0px 0px 0px;
+  
+}
+ @media (max-height: 00px) {
+    .project-tile {
+    height: 100px;
+      width:80px;
+  }
+  }
+ @media (max-height: 200px) {
+    .project-tile img {
+    height: 60px;
+      width:80px;
+  }
+  }
+.project-tile .tile2{
+  height:40px;
+  text-align:center;
+  color:#FFEBEE;
+  font-family: Montserrat, sans-serif;
+}
+.project-tile .tile2 h3{
+  text-decoration:none;
+}
+#navbar{
+\\position:fixed;
+}
+.navbar-menu{
+ 
+  background-color:#F50057;
+  height:57px;
+  margin: 0;
+	padding: 0;
+  list-style-type: none;
+  text-align:center;
+}
+.navbar-menu li{
+  float:right;
+  width:15%;
+ background-color:#F50057;
+
+  
+}
+.navbar-menu li a{
+  display: block;
+  padding: 14px 16px;
+	text-decoration: none;
+  font-size: 25px;
+ color:#FFEBEE;
+ font-family: Montserrat, sans-serif;
+  font-weight:bold;
+}
+.navbar-menu li a:hover{
+  background-color:#283593;
+}
+#contacts{
+ clear:left;
+  height:500px;
+  background-color: #263238;
+}
+#contacts h2{
+  text-align:center;
+  padding-top: 220px;
+  margin-bottom: 20px;
+  color:#FFEBEE;
+  font-weight:bold;
+}
+#profile-link{
+ padding-top: 50px;
+  list-style-type: none;
+  text-align:center;
+   margin-left:25%;
+}
+#profile-link li{
+  float:left;
+  margin-left:80px;
+}
+#profile-link li a{
+   display: block;
+  padding: 14px 16px;
+	text-decoration: none;
+  font-size: 20px;
+  color:#FFEBEE;
+}
+hr{
+  clear:left;
+}
+#icons{
+   margin: auto;
+  padding-left:40%;
+  color:#FFEBEE;
+}
