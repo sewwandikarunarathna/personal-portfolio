@@ -21,15 +21,18 @@ position:static;
 }
 #projects{
   height: 500px;
-  background-color:#c7a924;
+  background-color:#cf9d5c;
   margin:0px;
   padding:0px;
+}
+#projects h2:hover{
+  color: #d1083a;
 }
 #projects a {
   text-decoration: none;
 }
 #projects a h3:hover {
-  background-color: #f3687a;
+  color: #fa99a6;
 }
 #projects h2{
    text-align:center;
@@ -44,7 +47,7 @@ position:static;
   width:300px;
    height:320px;
    float:left;
-   background-color:#F50057;
+   background-color:#cc033f;
 }
 .project-tile img{
   width:300px;
